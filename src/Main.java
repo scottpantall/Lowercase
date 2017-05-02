@@ -13,12 +13,7 @@ public class Main {
         
         while ((line = buffer.readLine()) != null) {
             line = line.trim();
-            //lowercase(line);
-            System.out.println(line);
+            System.out.println(line.toLowerCase());
         }
-    }
-    
-    public static void lowercase(String line) {
-        
     }
 }
